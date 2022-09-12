@@ -1,0 +1,303 @@
+header{
+    min-height: 100vh;
+}
+@media only screen and (min-width: 1920px){
+    header{
+        min-height: 90vh;
+    }
+}
+@media only screen and (max-width: 1920px){
+    header{
+        min-height: 90vh;
+    }
+}
+nav form button{
+    background-color: #f80;
+}
+#mood{
+    display: none;
+}
+.nav-link{
+    color:#000;
+}
+.container img{
+    width: 50px;
+    margin-right: 10px;
+    height: 50px;
+}
+.orang{
+    background: #f80;
+    border-radius: 30px;
+}
+.orang1{
+    background: #f80;
+}
+.orang:hover{
+    background: rgb(255, 179, 93);
+    color: #555;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing .container{
+        flex-direction: column;
+    }
+    .landing .container .box{
+        width: 100%;
+        text-align: center;
+    }
+    .landing .container .img{
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) { 
+    .landing .container{
+    flex-direction: column;
+    }
+    .landing .container .box{
+        width: 100%;
+        text-align: center;
+    }
+    .landing .container .img{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px){
+    .landing .container{
+        flex-direction: row;
+    }
+    .landing .container .img{
+        display: block;
+    }
+}
+@media only screen and (min-width: 1200px) {
+        .landing .container .box{
+            width: 50%;
+        }
+}
+/* end landing ############################################ */
+.free{
+    padding: 30px;
+    margin: 20px 0;
+    background-color: rgb(228, 228, 228);
+}
+.free .con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 20px 0;
+}
+.free .content .box{
+    display: flex;
+    align-items: space-between;
+    margin-top: 20px;
+}
+.free .content .box i{
+    font-size: 40px;
+    margin: 0 20px;
+    color: rgb(49, 197, 255);
+}
+.free .content .box h2{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.free .content .box p{
+    font-size: 18px;
+    color: #777;
+    margin: 10px 0;
+}
+.free .box{
+    position: relative;
+}
+.free .box form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.free .bo2{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.free .box form input,
+.free .box form select{
+    margin: 20px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+}
+.free a{
+    margin: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .free .con{
+        flex-direction: column;
+    }
+    .free .box{
+        width: 100%;
+    }
+    .free .box form input,
+    .free .box form select{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px){
+    .free .con{
+        flex-direction: column;
+    }
+    .free .box{
+        width: 100%;
+    }
+    .free .box form input,
+    .free .box form select{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .free .con{
+        flex-direction: column;
+    }
+    .free .box{
+        width: 100%;
+    }
+    .free .box form input,
+    .free .box form select{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 992px){
+    .free .con{
+        flex-direction: row;
+    }
+    .free .box form input,
+    .free .box form select{
+        width: 100%;
+    }
+}
+/* end free ########################################### */
+footer{
+    padding: 30px;
+    background-color: rgb(8, 11, 65);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .box{
+    width: 300px;
+    height: 250px;
+}
+footer .box .links i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+footer .box .links .fa-facebook{
+    color:rgb(0, 12, 250);
+}
+footer .box .links .fa-linkedin{
+    color:rgb(8, 54, 182);
+}
+footer .box .links .fa-twitter{
+    color:rgb(80, 214, 247);
+}
+footer .box .links .fa-instagram{
+    color:rgb(158, 69, 34);
+}
+footer .box h1{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer .box p{
+    font-size: 18px;
+    color: rgb(158, 158, 158);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    cursor: pointer;
+}
+footer .box p:hover{  
+    color: rgb(58, 166, 255);
+}
+footer .box form input{  
+    display: block;
+    width: 250px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer .box form a{  
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(39, 174, 252);
+    width: 250px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+    footer .box{
+        text-align: center;
+        width: 100%;
+        margin:50px auto;
+    }
+    footer .box form input, 
+    footer .box form a{  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px){
+    footer{
+        flex-direction: column;
+    }
+    footer .box{
+        text-align: center;
+        width: 100%;
+        margin:50px auto;
+    }
+    footer .box form input, 
+    footer .box form a{  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px){
+    footer{
+        flex-flow: row wrap;
+    }
+    footer .box{
+        width: 300px;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 992px){
+    footer{
+        flex-direction: row;
+    }
+    footer .box{
+        width: 250px;
+    }
+}
+.end{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    font-size: 20px;
+}
